@@ -18,12 +18,13 @@ public class StatsServiceImpl implements StatsService{
     public Stats calculateStats() {
         Integer mutantCount = adnRepositorio.countByIsMutante(Constant.UNO);
         Integer humanCount = adnRepositorio.countByIsMutante(Constant.CERO);
-        
-        // Calcular ratio
         float ratio = 0.0f;
+          // Calcular ratio    
+      
         if (humanCount > 0) {
             ratio = (float) mutantCount / humanCount;
         }
+      
         
         return new Stats(humanCount, mutantCount, ratio);
     }
