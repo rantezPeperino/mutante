@@ -1,4 +1,4 @@
-package com.xmen.mutante;
+package com.xmen.mutante.entity;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +16,6 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.xmen.mutante.entity.AdnSecuencia;
 import com.xmen.mutante.repository.ADNRepositorio;
 
 

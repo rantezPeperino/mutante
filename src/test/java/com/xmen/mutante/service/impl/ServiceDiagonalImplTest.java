@@ -1,12 +1,10 @@
-package com.xmen.mutante;
+package com.xmen.mutante.service.impl;
 
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import com.xmen.mutante.service.impl.ServiceDiagonalImpl;
 
 class ServiceDiagonalImplTest {
     private ServiceDiagonalImpl service;

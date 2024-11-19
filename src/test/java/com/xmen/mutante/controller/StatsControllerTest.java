@@ -1,4 +1,4 @@
-package com.xmen.mutante;
+package com.xmen.mutante.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +13,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.xmen.mutante.controller.StatsController;
 import com.xmen.mutante.model.Stats;
 import com.xmen.mutante.service.StatsService;
 
@@ -31,6 +30,7 @@ public class StatsControllerTest {
     private Stats mockStats;
 
     @BeforeEach
+    @SuppressWarnings("unused")
     void setUp() {
         mockStats = new Stats(100, 40, 0.4f);
         mockMvc = MockMvcBuilders

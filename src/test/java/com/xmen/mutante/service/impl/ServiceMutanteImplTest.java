@@ -1,4 +1,4 @@
-package com.xmen.mutante;
+package com.xmen.mutante.service.impl;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -17,7 +17,7 @@ import com.xmen.mutante.entity.AdnSecuencia;
 import com.xmen.mutante.exception.InvalidMutanteException;
 import com.xmen.mutante.repository.ADNRepositorio;
 import com.xmen.mutante.service.ServiceSecuenciaAdn;
-import com.xmen.mutante.service.impl.ServiceMutanteImpl;
+
 
 @ExtendWith(MockitoExtension.class)
 public class ServiceMutanteImplTest {

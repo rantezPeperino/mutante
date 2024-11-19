@@ -1,4 +1,4 @@
-package com.xmen.mutante;
+package com.xmen.mutante.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -16,7 +16,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xmen.mutante.controller.MutanteController;
 import com.xmen.mutante.model.AdnRequest;
 import com.xmen.mutante.service.ServiceMutante;
 

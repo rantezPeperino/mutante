@@ -1,4 +1,4 @@
-package com.xmen.mutante;
+package com.xmen.mutante.utils;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,7 +10,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import com.xmen.mutante.exception.InvalidMutanteException;
-import com.xmen.mutante.utils.Utils;
+
 
 public class UtilsTest {
 

@@ -1,4 +1,4 @@
-package com.xmen.mutante;
+package com.xmen.mutante.service.impl;
 
 
 
@@ -13,7 +13,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import com.xmen.mutante.model.Stats;
 import com.xmen.mutante.repository.ADNRepositorio;
-import com.xmen.mutante.service.impl.StatsServiceImpl;
 import com.xmen.mutante.utils.Constant;
 
 @ExtendWith(MockitoExtension.class)

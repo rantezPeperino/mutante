@@ -1,4 +1,4 @@
-package com.xmen.mutante;
+package com.xmen.mutante.service.impl;
 
 
 
@@ -8,7 +8,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.xmen.mutante.service.ServiceVertical;
-import com.xmen.mutante.service.impl.ServiceVerticalImpl;
 import com.xmen.mutante.utils.Utils;
 
 public class ServiceVerticalImplTest {
